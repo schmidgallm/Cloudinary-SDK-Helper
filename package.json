@@ -1,0 +1,47 @@
+{
+  "name": "cloudinary-sdk-helper",
+  "version": "1.0.0",
+  "description": "full stack web app to interact with cloudinry account using their SDK. Nodejs and React.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schmidgallm/Cloudinary-SDK-Helper.git"
+  },
+  "keywords": [
+    "Cloudinary",
+    "Multer",
+    "Nodejs",
+    "React",
+    "API",
+    "Express",
+    "FS",
+    "SDK",
+    "Multer",
+    "Nodejs",
+    "React",
+    "API",
+    "Express",
+    "FS"
+  ],
+  "author": "Michael Schmidgall",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.35.0",
+    "nodemon": "^2.0.21",
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "multer": "^1.4.2",
+    "morgan": "^1.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/schmidgallm/Cloudinary-SDK-Helper/issues"
+  },
+  "homepage": "https://github.com/schmidgallm/Cloudinary-SDK-Helper#readme"
+}
