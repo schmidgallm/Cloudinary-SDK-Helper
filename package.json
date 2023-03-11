@@ -4,7 +4,13 @@
   "description": "full stack web app to interact with cloudinry account using their SDK. Nodejs and React.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server/index.js",
+    "start:dev": "concurrently \"nodemon server/index.js\" \"npm run public\"",
+    "public": "cd public && npm run start",
+    "install": "cd public && npm install",
+    "build": "cd public && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
